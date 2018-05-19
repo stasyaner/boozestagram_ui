@@ -64,7 +64,6 @@ let config = {
   },
   devServer: {
     historyApiFallback: true,
-    hot: true,
   },
   optimization: {
     splitChunks: {
