@@ -16,7 +16,6 @@ class MainContainer extends Component {
 
     this.state = {
       tmpImg,
-      imageDataArr: null,
       model: null,
     };
 
@@ -39,8 +38,6 @@ class MainContainer extends Component {
               l += 1;
             }
           }
-
-          // this.setState({ imageDataArr });
 
           const xs = tf.tensor2d(imageDataArr, [1, IMAGE_SIZE]);
 
